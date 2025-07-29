@@ -1,0 +1,11 @@
+[project]
+name = "api-tts-kokoro-v2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+    "kokoro>=0.9.4",
+    "soundfile>=0.13.1",
+]

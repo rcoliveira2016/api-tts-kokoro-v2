@@ -1,0 +1,40 @@
+# Ignorar arquivos e diretórios comuns do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Ignorar ambientes virtuais
+venv/
+.env
+*.env
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de cache
+.cache/
+*.egg-info/
+dist/
+build/
+
+# Ignorar arquivos do Docker
+Dockerfile
+docker-compose.yml
+
+# Ignorar configurações de IDEs e editores
+.vscode/
+.idea/
+*.swp
+
+# Ignorar arquivos de teste e cobertura
+tests/
+.coverage
+htmlcov/
+
+# Ignorar arquivos temporários do sistema operacional
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
