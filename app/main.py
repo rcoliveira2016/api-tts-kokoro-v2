@@ -20,6 +20,10 @@ app.add_middleware(
 def read_root():
     return {"Message": "Ok"}
 
+@app.get("/healthcheck")
+def read_healthcheck():
+    return {"Message": "Ok"}
+
 @app.get("/tts")
 async def tts(text: str, voice: str = "pf_dora"):
     """Gera áudio TTS via Kokoro e envia como stream."""   
